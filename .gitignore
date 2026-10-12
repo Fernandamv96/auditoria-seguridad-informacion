@@ -8,4 +8,6 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
-*.log
+*.log.env.*
+!.env.example
+*.zip
