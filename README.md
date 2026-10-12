@@ -4,6 +4,7 @@
 
 **TI3034 · Fundamentos de Seguridad de la Información · INACAP Valparaíso**
 
+[![CI](https://github.com/Fernandamv96/Auditoria-Fundamentos-de-la-seguridad-de-la-informaci-n-/actions/workflows/ci.yml/badge.svg)](https://github.com/Fernandamv96/Auditoria-Fundamentos-de-la-seguridad-de-la-informaci-n-/actions/workflows/ci.yml)
 [![Vercel](https://img.shields.io/badge/Vercel-Desplegado-00f5d4?style=for-the-badge&logo=vercel&logoColor=black)](https://auditoria-fundamentos-de-la-segurid.vercel.app/)
 [![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -18,6 +19,8 @@
 </div>
 
 ---
+
+![Resumen ejecutivo de la auditoría](docs/preview.png)
 
 ## 📋 Información del proyecto
 
@@ -122,6 +125,23 @@ npm run dev
 # Build de producción
 npm run build
 ```
+
+## 🔒 Calidad y seguridad
+
+- CI en cada push y PR: ESLint + build de Vite.
+- CodeQL (análisis estático), Dependabot (npm y Actions) y gitleaks en pre-commit.
+- Para reportar vulnerabilidades, mira [SECURITY.md](SECURITY.md).
+
+## 💡 Qué aprendí
+
+- A seguir una metodología (OWASP Testing Guide) en lugar de "probar cosas": reconocimiento, explotación, evidencia y controles.
+- A puntuar hallazgos con CVSS y a priorizarlos en una matriz de riesgo.
+- A explotar SQLi, XSS y Command Injection en un laboratorio controlado (DVWA), y a proponer controles OWASP/NIST concretos para cada uno.
+- A convertir un informe técnico en un sitio navegable y exportable a PDF.
+
+## 📄 Licencia
+
+[MIT](LICENSE) © 2026 Fernanda (Fernandamv96)
 
 ---
 
