@@ -138,7 +138,6 @@ export default function ExportPDF({ navigate }) {
           scrollY: -window.scrollY,
         });
 
-        const imgData = canvas.toDataURL('image/jpeg', 0.88);
         const imgW = canvas.width;
         const imgH = canvas.height;
 
